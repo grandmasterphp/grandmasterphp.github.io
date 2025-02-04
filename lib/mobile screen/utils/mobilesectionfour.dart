@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class Mobilesectionfour extends StatelessWidget {
   const Mobilesectionfour({super.key});
@@ -18,10 +19,12 @@ class Mobilesectionfour extends StatelessWidget {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                const Center(
+                Center(
                   child: Text(
                     'Help us be there when it matters most',
-                    style: TextStyle(fontWeight: FontWeight.bold, fontSize: 25),
+                    style: GoogleFonts.raleway(
+                        fontSize: 25, fontWeight: FontWeight.bold),
+                    textAlign: TextAlign.center,
                   ),
                 ),
                 const SizedBox(

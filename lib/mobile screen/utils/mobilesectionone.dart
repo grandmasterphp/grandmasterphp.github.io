@@ -18,8 +18,8 @@ class Mobilesectionone extends StatelessWidget {
             Text(
               'Rough sleeping is becoming a problem.',
               style: GoogleFonts.raleway(
-                  fontSize: 20, fontWeight: FontWeight.w600),
-              textAlign: TextAlign.left,
+                  fontSize: 25, fontWeight: FontWeight.bold),
+              textAlign: TextAlign.center,
             ),
             Container(
               width: MediaQuery.of(context).size.width,
@@ -33,7 +33,7 @@ class Mobilesectionone extends StatelessWidget {
               ),
             ),
             const SizedBox(
-              height: 15,
+              height: 18,
             ),
             Container(
               padding: const EdgeInsets.only(left: 12),
