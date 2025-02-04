@@ -79,9 +79,6 @@ class MobileAboutpage extends StatelessWidget {
         shadowColor: Colors.grey[400],
       ),
       body: SingleChildScrollView(
-        padding: const EdgeInsets.symmetric(
-          horizontal: 20.0,
-        ),
         child: Column(
           children: [
             //OUR MISSION
@@ -103,18 +100,19 @@ class MobileAboutpage extends StatelessWidget {
 
             Container(
               color: Colors.amber[50],
-              padding: const EdgeInsets.symmetric(vertical: 20),
+              padding: const EdgeInsets.symmetric(vertical: 20, horizontal: 20),
               child: Column(children: [
                 const Text(
                     'At Helping Hands Supported Living CIC, our mission is to empower individuals facing homelessness and those with diverse needs to achieve stable, independent living and successfully integrate into society. We are committed to providing personalized support services and accommodation that enhance the quality of life for our clients, promoting their autonomy, and fostering their reintegration into the community.',
                     style: TextStyle(
-                      fontSize: 15,
+                      fontSize: 18,
                     )),
                 const SizedBox(
                   height: 10,
                 ),
                 Container(
                   width: MediaQuery.of(context).size.width,
+                  padding: const EdgeInsets.symmetric(horizontal: 20),
                   // height: 300,
                   child: ClipRRect(
                     borderRadius: BorderRadius.circular(15),
@@ -144,12 +142,13 @@ class MobileAboutpage extends StatelessWidget {
                 'OUR VISION ',
                 style: TextStyle(
                   fontWeight: FontWeight.bold,
-                  fontSize: 30,
+                  fontSize: 25,
                 ),
               ),
             ),
 
             Container(
+              padding: const EdgeInsets.symmetric(horizontal: 20),
               color: Colors.white,
               child: Column(children: [
                 Container(
@@ -169,7 +168,7 @@ class MobileAboutpage extends StatelessWidget {
                 const Text(
                     'We envision a society where every individual, regardless of their past circumstances or challenges, can secure safe housing and lead a fulfilling life as an active member of their community. Helping Hands Supported Living CIC strives to be a leader in innovative supported living services, setting the standard for compassionate care, individual empowerment, and successful societal reintegration for homeless individuals and others in need of support.',
                     style: TextStyle(
-                      fontSize: 15,
+                      fontSize: 18,
                     )),
               ]),
             ),
@@ -178,7 +177,7 @@ class MobileAboutpage extends StatelessWidget {
             ),
             Container(
               margin: const EdgeInsets.only(left: 50),
-              padding: const EdgeInsets.only(bottom: 10),
+              padding: const EdgeInsets.only(bottom: 2),
               decoration: const BoxDecoration(
                 border: Border(
                     bottom: BorderSide(width: 8, color: Colors.greenAccent)),
@@ -188,13 +187,14 @@ class MobileAboutpage extends StatelessWidget {
                 'OUR CORE VALUES ',
                 style: TextStyle(
                   fontWeight: FontWeight.bold,
-                  fontSize: 30,
+                  fontSize: 25,
                 ),
               ),
             ),
 
             //CORE VALUE!!!!!
             Container(
+              padding: const EdgeInsets.symmetric(horizontal: 20),
               color: Colors.cyan[50],
               child: Column(children: [
                 Padding(

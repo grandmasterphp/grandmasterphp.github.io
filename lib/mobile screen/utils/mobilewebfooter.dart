@@ -112,17 +112,17 @@ class Mobilewebfooter extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: [
                     FacebookButton(
-                        iconSize: 10,
+                        iconSize: 20,
                         onPressed: () async => await EasyLauncher.url(
                             url:
                                 'https://www.instagram.com/helpinghandssupportedliving?igsh=MWR3cGdjNmxobHdwbw%3D%3D&utm_source=qr')),
                     InstagramButton(
-                        iconSize: 10,
+                        iconSize: 20,
                         onPressed: () async => await EasyLauncher.url(
                             url:
                                 'https://www.instagram.com/helpinghandssupportedliving?igsh=MWR3cGdjNmxobHdwbw%3D%3D&utm_source=qr')),
                     TwitterButton(
-                        iconSize: 10,
+                        iconSize: 20,
                         isMinSize: true,
                         onPressed: () async =>
                             await EasyLauncher.url(url: 'https://www.x.com/')),
