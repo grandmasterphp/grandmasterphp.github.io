@@ -23,7 +23,7 @@ class Mobilesectionfour extends StatelessWidget {
                   child: Text(
                     'Help us be there when it matters most',
                     style: GoogleFonts.raleway(
-                        fontSize: 25, fontWeight: FontWeight.bold),
+                        fontSize: 20, fontWeight: FontWeight.bold),
                     textAlign: TextAlign.center,
                   ),
                 ),

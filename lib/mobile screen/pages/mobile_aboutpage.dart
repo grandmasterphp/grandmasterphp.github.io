@@ -1,5 +1,6 @@
 import "package:flutter/material.dart";
 import "package:go_router/go_router.dart";
+import "package:google_fonts/google_fonts.dart";
 import "package:helping_hands_supported_living/mobile%20screen/utils/mobilewebfooter.dart";
 
 class MobileAboutpage extends StatelessWidget {
@@ -92,9 +93,11 @@ class MobileAboutpage extends StatelessWidget {
                     Border(bottom: BorderSide(width: 8, color: Colors.yellow)),
                 color: Color(0xffFAF9F6),
               ),
-              child: const Text(
+              child: Text(
                 'OUR MISSION ',
-                style: TextStyle(fontWeight: FontWeight.bold, fontSize: 30),
+                style: GoogleFonts.raleway(
+                    fontSize: 20, fontWeight: FontWeight.bold),
+                textAlign: TextAlign.justify,
               ),
             ),
 
@@ -138,12 +141,11 @@ class MobileAboutpage extends StatelessWidget {
                     bottom: BorderSide(width: 8, color: Colors.greenAccent)),
                 color: Color(0xffFAF9F6),
               ),
-              child: const Text(
+              child: Text(
                 'OUR VISION ',
-                style: TextStyle(
-                  fontWeight: FontWeight.bold,
-                  fontSize: 25,
-                ),
+                style: GoogleFonts.raleway(
+                    fontSize: 20, fontWeight: FontWeight.bold),
+                textAlign: TextAlign.justify,
               ),
             ),
 
@@ -183,12 +185,11 @@ class MobileAboutpage extends StatelessWidget {
                     bottom: BorderSide(width: 8, color: Colors.greenAccent)),
                 color: Color(0xffFAF9F6),
               ),
-              child: const Text(
+              child: Text(
                 'OUR CORE VALUES ',
-                style: TextStyle(
-                  fontWeight: FontWeight.bold,
-                  fontSize: 25,
-                ),
+                style: GoogleFonts.raleway(
+                    fontSize: 20, fontWeight: FontWeight.bold),
+                textAlign: TextAlign.justify,
               ),
             ),
 
