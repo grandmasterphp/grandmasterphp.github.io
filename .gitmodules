@@ -1,4 +1,4 @@
 
 [submodule "grandmasterphp.github.io"]
 	path = grandmasterphp.github.io
-	url = ./https://github.com/grandmasterphp/grandmasterphp.github.io.git
+	url = https://github.com/grandmasterphp/grandmasterphp.github.io.git
