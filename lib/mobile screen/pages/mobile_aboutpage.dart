@@ -115,14 +115,11 @@ class MobileAboutpage extends StatelessWidget {
                 ),
                 Container(
                   width: MediaQuery.of(context).size.width,
-                  padding: const EdgeInsets.symmetric(horizontal: 20),
+                  padding: const EdgeInsets.symmetric(horizontal: 0),
                   // height: 300,
-                  child: ClipRRect(
-                    borderRadius: BorderRadius.circular(15),
-                    child: Image.asset(
-                      'lib/assets/images/mission.jpg',
-                      fit: BoxFit.cover,
-                    ),
+                  child: Image.asset(
+                    'lib/assets/images/mission.jpg',
+                    fit: BoxFit.cover,
                   ),
                 )
               ]),
@@ -150,28 +147,28 @@ class MobileAboutpage extends StatelessWidget {
             ),
 
             Container(
-              padding: const EdgeInsets.symmetric(horizontal: 20),
+              padding: const EdgeInsets.symmetric(horizontal: 0),
               color: Colors.white,
               child: Column(children: [
                 Container(
                   width: MediaQuery.of(context).size.width,
                   // height: 300,
-                  child: ClipRRect(
-                    borderRadius: BorderRadius.circular(15),
-                    child: Image.asset(
-                      'lib/assets/images/idea-concept-with-light-bulb.jpg',
-                      fit: BoxFit.cover,
-                    ),
+                  child: Image.asset(
+                    'lib/assets/images/idea-concept-with-light-bulb.jpg',
+                    fit: BoxFit.cover,
                   ),
                 ),
                 const SizedBox(
                   height: 10,
                 ),
-                const Text(
-                    'We envision a society where every individual, regardless of their past circumstances or challenges, can secure safe housing and lead a fulfilling life as an active member of their community. Helping Hands Supported Living CIC strives to be a leader in innovative supported living services, setting the standard for compassionate care, individual empowerment, and successful societal reintegration for homeless individuals and others in need of support.',
-                    style: TextStyle(
-                      fontSize: 18,
-                    )),
+                const Padding(
+                  padding: EdgeInsets.symmetric(horizontal: 20.0),
+                  child: Text(
+                      'We envision a society where every individual, regardless of their past circumstances or challenges, can secure safe housing and lead a fulfilling life as an active member of their community. Helping Hands Supported Living CIC strives to be a leader in innovative supported living services, setting the standard for compassionate care, individual empowerment, and successful societal reintegration for homeless individuals and others in need of support.',
+                      style: TextStyle(
+                        fontSize: 18,
+                      )),
+                ),
               ]),
             ),
             const SizedBox(
