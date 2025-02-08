@@ -18,7 +18,7 @@ class Mobilesectionone extends StatelessWidget {
             Text(
               'Rough sleeping is becoming a problem.',
               style: GoogleFonts.raleway(
-                  fontSize: 25, fontWeight: FontWeight.bold),
+                  fontSize: 20, fontWeight: FontWeight.bold),
               textAlign: TextAlign.justify,
             ),
             Container(
