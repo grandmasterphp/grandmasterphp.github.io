@@ -1,3 +1,6 @@
 [submodule "/"] 
   path = / 
-  url = https://github.com/Kingsoman/grandmasterphp.github.io.git 
+  url = https://github.com/grandmasterphp/grandmasterphp.github.io.git 
+[submodule "grandmasterphp.github.io"]
+	path = grandmasterphp.github.io
+	url = ./grandmasterphp.github.io
